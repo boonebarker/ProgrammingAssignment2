@@ -1,6 +1,6 @@
 ## Filename: cachematrix.R
 ## Written by: Roger Peng, Boone Barker
-## Date: November 20, 2015
+## Date: December 20, 2015
 
 # in this file are a pair of functions that cache the
 # inverse of a matrix. With the cache, calculating the inverse of
