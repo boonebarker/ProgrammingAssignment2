@@ -9,6 +9,17 @@
 # The following function creates a special "matrix" object that 
 # can cache its inverse.
 
+## Filename: cachematrix.R
+## Written by: Roger Peng, Boone Barker
+## Date: December 20, 2015
+
+# in this file are a pair of functions that cache the
+# inverse of a matrix. With the cache, calculating the inverse of
+# the same matrix again is not necessary; it can be retrieved from the cache.
+
+# The following function creates a special "matrix" object that 
+# can cache its inverse.
+
 makeCacheMatrix <- function(x = matrix()) {
 
         # Set the value of the "matrix" object       
